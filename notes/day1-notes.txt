@@ -1,0 +1,272 @@
+1.   What is Cybersecurity?
+ans.Cybersecurity means protecting computers, mobile phones, servers, networks, software, and data from hackers, viruses, malware, and unauthorized access.
+Its main goal is:
+
+Keep data safe
+Prevent hacking
+Protect privacy
+Secure systems and networks
+Simple Example
+
+When you:
+
+use strong passwords,
+enable OTP,
+install antivirus,
+or protect Wi-Fi,
+
+you are using cybersecurity practices.
+
+Types of Cybersecurity
+1. Network Security
+
+Protects internet and network connections from attacks.
+
+Example:
+
+Firewall
+Secure Wi-Fi
+IDS/IPS
+2. Application Security
+
+Protects apps and software from vulnerabilities.
+
+Example:
+
+Secure coding
+Bug fixing
+3. Information Security
+
+Protects important data and files.
+
+Example:
+
+Encryption
+Password protection
+4. Cloud Security
+
+Protects cloud platforms like:
+
+Google Drive
+AWS
+Azure
+5. Endpoint Security
+
+Protects devices like:
+
+Laptops
+Phones
+PCs
+Common Cyber Threats
+Malware
+
+Malicious software that damages systems.
+
+Examples:
+
+Virus
+Worm
+Trojan
+Ransomware
+Phishing
+
+Fake emails/messages used to steal passwords or OTPs.
+
+Hacking
+
+Unauthorized access to systems.
+
+DDoS Attack
+
+Flooding a server with traffic to crash it.
+
+
+
+2. What is Ethical Hacking?
+
+Ethical hacking means legally testing systems and networks to find security weaknesses before real hackers exploit them.
+
+An ethical hacker:
+
+gets permission first,
+finds vulnerabilities,
+reports them,
+helps fix them.
+Ethical Hacker vs Criminal Hacker
+Ethical Hacker	Criminal Hacker
+Legal	Illegal
+Protects systems	Damages systems
+Has permission	No permission
+Works for security	Works for profit or harm
+Main Tasks of Ethical Hackers
+Penetration testing
+Vulnerability assessment
+Password testing
+Network scanning
+Web application testing
+Phases of Ethical Hacking
+1. Reconnaissance
+
+Collect information about target.
+
+2. Scanning
+
+Find open ports and vulnerabilities.
+
+3. Gaining Access
+
+Test whether vulnerability can be exploited.
+
+4. Maintaining Access
+
+Check persistence possibilities.
+
+5. Reporting
+
+Create security report and fixes.
+
+3. What is Virtualization?
+
+Virtualization means creating a virtual computer inside another computer.
+
+With virtualization:
+
+One physical computer can run multiple operating systems.
+You can run Windows, Linux, Kali Linux together.
+Why Virtualization is Useful
+Safe testing environment
+Run multiple OS
+Learn cybersecurity safely
+No need for separate laptop
+Easy snapshots and recovery
+Real Example
+
+Your laptop:
+
+Main OS → Windows
+
+Inside Virtual Machine:
+
+Kali Linux
+Ubuntu
+
+So one laptop behaves like multiple computers.
+
+4. What is Kali Linux?
+
+Kali Linux is a Linux operating system specially made for:
+
+Ethical hacking
+Penetration testing
+Digital forensics
+Cybersecurity training
+
+It comes preinstalled with many hacking and security tools.
+
+Popular Kali Linux Tools
+Tool	Purpose
+Nmap	Network scanning
+Wireshark	Packet analysis
+Metasploit	Exploitation framework
+Burp Suite	Web testing
+Hydra	Password testing
+Why Kali Linux is Popular
+Free and open source
+Lightweight
+Large hacking tool collection
+Used by professionals
+Best for cybersecurity learning
+
+
+
+5. What is VM (Virtual Machine)?
+
+A VM (Virtual Machine) is a software-based computer running inside your real computer.
+
+It behaves like a completely separate computer.
+
+Example Setup
+
+Physical Laptop:
+
+Windows 11
+
+Inside VM:
+
+Kali Linux
+
+Both run together at same time.
+
+VM Software
+
+Popular VM software:
+
+Oracle VM VirtualBox
+VMware Workstation
+Advantages of VM
+Safe Testing
+
+If Kali crashes or gets malware, your main Windows stays safe.
+
+Snapshots
+
+You can save VM state and restore later.
+
+Isolation
+
+Virtual machine is separated from host system.
+
+Multiple OS
+
+Run Linux and Windows together.
+
+6. What is Linux Terminal?
+
+Linux Terminal is a command-line interface (CLI) used to control Linux using text commands.
+
+Instead of clicking icons, you type commands.
+
+Terminal Example
+pwd
+
+Shows current folder path.
+
+ls
+
+Shows files and folders.
+
+cd Documents
+
+Moves into Documents folder.
+
+mkdir practice
+
+Creates a folder.
+
+touch notes.txt
+
+Creates an empty file.
+
+Why Terminal is Important in Cybersecurity
+
+Most hacking and security tools run in terminal.
+
+Cybersecurity professionals use terminal because:
+
+Faster than GUI
+More powerful
+Better control
+Automation possible
+Basic Linux Commands
+Command	Work
+pwd	Show current directory
+ls	List files
+cd	Change directory
+mkdir	Create folder
+touch	Create file
+rm	Delete file
+clear	Clear terminal
+sudo	Run as administrator
+
+
+

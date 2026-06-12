@@ -1,0 +1,29 @@
+MD5
+Produces 128-bit hash
+Fast but insecure
+Vulnerable to collisions
+
+
+SHA256
+Produces 256-bit hash
+More secure
+Commonly used for integrity verification
+
+
+Symmetric Encryption
+Same key for encryption and decryption
+Fast
+Example: AES
+
+
+Asymmetric Encryption
+Uses Public Key and Private Key
+Example: RSA
+Used in HTTPS and SSH
+
+
+
+SSL/TLS
+Secures web communication
+Used by HTTPS
+Combines asymmetric and symmetric cryptography

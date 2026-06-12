@@ -1,0 +1,20 @@
+What is Nmap
+Nmap (Network Mapper) is an open-source network scanning tool used to discover devices, identify open ports, detect running services, and gather information about systems on a network. It is widely used by network administrators and cybersecurity professionals for network analysis and security assessments.
+
+What is a Port
+A port is a logical communication endpoint used by applications and services on a computer. Ports help the operating system determine which application should receive incoming network data. Port numbers range from 0 to 65535.
+
+Open Port
+An open port is a port that is actively accepting connections and has a service running on it. For example, a web server usually listens on port 80 (HTTP) or port 443 (HTTPS).
+
+Closed Port
+A closed port is a port that is accessible on the target device but does not have any service listening on it. The device responds to connection requests, indicating that the port is closed.
+
+Filtered Port
+A filtered port is a port that Nmap cannot determine as open or closed because a firewall, router, or security device is blocking the communication. The packets sent to the port are filtered or dropped before a response is received.
+
+Service Detection
+Service detection is the process of identifying the services and applications running on open ports. Nmap can determine details such as the service name and version, helping administrators understand what software is running on a system.
+
+OS Detection
+OS detection is a feature of Nmap that attempts to identify the operating system running on a target device. It analyzes network responses and compares them with known operating system fingerprints to determine the most likely operating system and version.

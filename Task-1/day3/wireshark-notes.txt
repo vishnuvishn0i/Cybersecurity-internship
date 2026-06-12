@@ -1,0 +1,42 @@
+Packet
+A packet is a small unit of data transmitted over a network. When a file, message, or webpage is sent across the internet, the data is divided into smaller packets. Each packet contains the actual data along with information such as the source and destination addresses.
+
+Network Traffic
+Network traffic refers to the flow of data across a network. Whenever devices communicate with each other, such as browsing websites, downloading files, or streaming videos, the exchanged data is considered network traffic.
+
+OSI Model
+The OSI (Open Systems Interconnection) Model is a conceptual framework used to understand how network communication works. It divides the communication process into seven layers, making it easier to design, manage, and troubleshoot networks.
+
+The seven layers are:
+
+Physical Layer
+Data Link Layer
+Network Layer
+Transport Layer
+Session Layer
+Presentation Layer
+Application Layer
+
+TCP/IP Model
+The TCP/IP Model is the practical networking model used on the internet. It consists of four layers that define how data is transmitted between devices.
+
+The four layers are:
+
+Network Access Layer
+Internet Layer
+Transport Layer
+Application Layer
+
+TCP provides reliable communication, while IP is responsible for addressing and routing data between devices.
+
+MAC Address
+A MAC (Media Access Control) Address is a unique hardware address assigned to a network interface card (NIC) by the manufacturer. It is used to identify devices on a local network and is usually written in hexadecimal format, such as 00:1A:2B:3C:4D:5E.
+
+ARP
+ARP (Address Resolution Protocol) is used to map an IP address to a MAC address within a local network. When a device knows the IP address of another device but not its MAC address, it sends an ARP request and receives an ARP reply containing the required MAC address.
+
+DNS
+DNS (Domain Name System) is a service that translates human-readable domain names into IP addresses. For example, when a user enters google.com in a browser, DNS finds the corresponding IP address so the browser can connect to the correct server.
+
+Wireshark
+Wireshark is a network protocol analyzer used to capture and inspect network traffic in real time. It allows users to view packet details, analyze network communication, troubleshoot connectivity issues, and learn how network protocols operate.

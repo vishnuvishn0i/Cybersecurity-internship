@@ -1,0 +1,162 @@
+Networking
+
+Networking is the process of connecting devices so they can communicate and share data.
+
+Examples:
+
+Internet
+Wi-Fi
+LAN (Local Area Network)
+
+Networking is the foundation of cybersecurity because attackers and defenders both operate over networks.
+
+IP Address
+
+IP (Internet Protocol) Address is a unique address assigned to a device on a network.
+
+Example:
+
+192.168.1.10
+Types
+Private IP
+
+Used inside local networks.
+
+Examples:
+
+192.168.x.x
+10.x.x.x
+172.16.x.x - 172.31.x.x
+Public IP
+
+Used on the internet.
+
+Assigned by ISP.
+
+Check IP in Linux
+ip a
+
+or
+
+ifconfig
+Port
+
+A port is a communication endpoint used by applications.
+
+Think of:
+
+IP Address = House Address
+Port = Room Number
+Common Ports
+Port	Service
+20/21	FTP
+22	SSH
+23	Telnet
+25	SMTP
+53	DNS
+80	HTTP
+110	POP3
+143	IMAP
+443	HTTPS
+3306	MySQL
+Check Open Ports
+netstat -tulnp
+
+or
+
+ss -tulnp
+TCP
+
+TCP (Transmission Control Protocol) is a reliable communication protocol.
+
+Features
+Connection-oriented
+Reliable
+Error checking
+Data arrives in order
+Examples
+Web browsing
+Email
+SSH
+File transfers
+TCP Three-Way Handshake
+SYN
+SYN-ACK
+ACK
+
+Connection established.
+
+UDP
+
+UDP (User Datagram Protocol) is a fast communication protocol.
+
+Features
+Connectionless
+Faster than TCP
+No delivery guarantee
+No error correction
+Examples
+Online gaming
+Video streaming
+Voice calls
+DNS queries
+TCP vs UDP
+TCP	UDP
+Reliable	Fast
+Connection-oriented	Connectionless
+Error checking	Minimal checking
+Slower	Faster
+DNS
+
+DNS (Domain Name System) translates domain names into IP addresses.
+
+Example:
+
+google.com → 142.250.x.x
+
+Without DNS:
+
+You would need to remember IP addresses instead of domain names.
+
+DNS Uses Port
+53
+DNS Lookup
+nslookup google.com
+
+or
+
+dig google.com
+HTTP
+
+HTTP (HyperText Transfer Protocol) is used to transfer web pages between browsers and web servers.
+
+Characteristics
+Not encrypted
+Data can be intercepted
+Used for websites
+Port
+80
+
+Example:
+
+http://example.com
+HTTPS
+
+HTTPS (HyperText Transfer Protocol Secure) is the secure version of HTTP.
+
+Features
+Encrypted communication
+Uses SSL/TLS certificates
+Protects passwords and sensitive data
+Port
+443
+
+Example:
+
+https://example.com
+HTTP vs HTTPS
+HTTP	HTTPS
+Not encrypted	Encrypted
+Port 80	Port 443
+Less secure	More secure
+Vulnerable to sniffing	Protects data

@@ -1,0 +1,112 @@
+Linux
+
+Linux is an open-source operating system used in servers, cybersecurity, cloud computing, and embedded devices.
+
+Features
+Free and open source
+Multi-user
+Multi-tasking
+Secure and stable
+Command-line based but also supports GUI
+Common Linux Commands
+Command	Purpose
+pwd	Show current directory
+ls	List files and folders
+cd	Change directory
+mkdir	Create folder
+touch	Create file
+cp	Copy file
+mv	Move/Rename file
+rm	Delete file
+cat	Display file contents
+clear	Clear terminal
+chmod
+
+chmod = Change Mode
+
+Used to change file or directory permissions.
+
+Syntax
+chmod permissions filename
+Example
+chmod 755 script.sh
+
+Permission Meaning:
+
+7 = Read + Write + Execute
+5 = Read + Execute
+5 = Read + Execute
+chown
+
+chown = Change Owner
+
+Used to change ownership of files and directories.
+
+Syntax
+chown user filename
+Example
+sudo chown kali notes.txt
+
+Change owner and group:
+
+sudo chown kali:kali notes.txt
+Linux Permissions
+
+Linux permissions control who can access files.
+
+Permission Types
+Symbol	Meaning
+r	Read
+w	Write
+x	Execute
+Permission Groups
+User (Owner)
+Group
+Others
+
+Example:
+
+-rwxr-xr--
+
+Breakdown:
+
+Section	Meaning
+rwx	Owner can read, write, execute
+r-x	Group can read and execute
+r--	Others can only read
+Numeric Permissions
+Number	Permission
+7	rwx
+6	rw-
+5	r-x
+4	r--
+
+Example:
+
+chmod 644 notes.txt
+
+Owner = Read + Write
+
+Group = Read
+
+Others = Read
+
+apt
+
+APT (Advanced Package Tool) is used in Debian-based Linux distributions such as Kali Linux and Ubuntu.
+
+Update Package List
+sudo apt update
+Upgrade Installed Packages
+sudo apt upgrade
+Install Package
+sudo apt install nmap
+Remove Package
+sudo apt remove nmap
+Search Package
+apt search wireshark
+
+
+
+
+

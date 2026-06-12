@@ -1,0 +1,11 @@
+Metasploitable2 is an intentionally vulnerable Linux machine used for cybersecurity training and penetration testing practice.
+
+Purpose:
+- Learning Nmap
+- Vulnerability scanning
+- Service enumeration
+- Exploitation practice
+- Report writing
+
+It should only be used inside a private lab.
+
