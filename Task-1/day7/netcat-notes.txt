@@ -1,0 +1,12 @@
+NETCAT
+
+
+Netcat (nc) is a networking utility used for reading and writing data across network connections.
+
+Common Uses:
+- Port checking
+- Service testing
+- Network debugging
+- Data transfer
+
+It is often called the Swiss Army Knife of Networking.
