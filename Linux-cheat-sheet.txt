@@ -1,0 +1,25 @@
+pwd - Show current directory
+ls - List files
+cd - Change directory
+mkdir - Create folder
+rmdir - Remove empty directory
+rm -rf - Delete directory recusrivrly
+rm - Delete file
+cp - Copy file
+mv - Move file
+cat - View file or Display file content
+nano - Edit file
+chmod - Change permissions
+chown - Change ownership
+find - Search files 
+grep - search texts
+history - show command history
+ifconfig - Show network info
+ip a - Show IP address
+ping - Test connectivity
+netstat - Show network connections
+nmap - Scan hosts and ports
+git status - Check repository status
+git add . - Stage files
+git commit -m "msg" - Commit changes
+git push - Upload to GitHub
