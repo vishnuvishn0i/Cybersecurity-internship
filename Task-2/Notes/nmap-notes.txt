@@ -1,0 +1,34 @@
+Nmap
+
+Nmap (Network Mapper) is an open-source network scanning tool.
+
+Uses:
+- Host Discovery
+- Port Scanning
+- Service Detection
+- OS Detection
+
+Common Commands:
+
+nmap <target>
+Basic scan
+
+nmap -sV <target>
+Service version detection
+
+nmap -O <target>
+Operating system detection
+
+
+Practical Results
+
+Target IP: 192.168.56.102
+
+Scans Performed:
+- Host Discovery (nmap -sn)
+- Service Version Detection (nmap -sV)
+- OS Detection (nmap -O)
+
+Result:
+The target machine was reachable and multiple services were identified.
+Nmap successfully detected open ports, service versions, and operating system information.

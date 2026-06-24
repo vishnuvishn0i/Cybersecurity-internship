@@ -1,0 +1,56 @@
+# Task 2: Network Scanning and Reconnaissance
+
+## Objective
+
+To perform reconnaissance, network scanning, packet analysis, and basic firewall configuration using Kali Linux and Metasploitable.
+
+## Tools Used
+
+* Kali Linux
+* Nmap
+* Wireshark
+* Metasploitable 2
+* iptables
+* Whois
+* Nslookup
+
+## Activities Performed
+
+### 1. Reconnaissance
+
+* Performed Whois lookup.
+* Performed DNS lookup using nslookup.
+* Studied Google Dorking techniques.
+
+### 2. Network Scanning
+
+* Ping test performed.
+* TCP SYN Scan using Nmap.
+* Service Detection using Nmap (-sV).
+* OS Detection using Nmap (-O).
+* UDP Scan using Nmap (-sU).
+
+### 3. Metasploitable Analysis
+
+* Identified Metasploitable IP address.
+* Scanned available services and open ports.
+
+### 4. Wireshark Packet Analysis
+
+* Captured network traffic on active interface.
+* Applied ICMP filter.
+* Observed Echo Request and Echo Reply packets.
+
+### 5. Firewall Configuration
+
+* Viewed existing firewall rules using iptables.
+* Added ICMP allow rule.
+* Verified firewall configuration.
+
+## Results
+
+Successfully completed reconnaissance, network scanning, packet analysis, and firewall configuration tasks. Network services were identified and analyzed in a controlled lab environment.
+
+## Conclusion
+
+Task-2 improved understanding of reconnaissance techniques, Nmap scanning methods, packet analysis using Wireshark, and firewall management using iptables.

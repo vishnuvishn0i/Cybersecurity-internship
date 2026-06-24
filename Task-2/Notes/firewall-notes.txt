@@ -1,0 +1,15 @@
+
+Firewall Basics with iptables
+
+1. Viewed existing firewall rules using:
+   sudo iptables -L
+
+2. Added ICMP allow rule:
+   sudo iptables -A INPUT -p icmp -j ACCEPT
+
+3. Verified the rule using:
+   sudo iptables -L
+
+4. Learned how firewall rules can allow or block network traffic.
+
+5. Observed ACCEPT policy and ICMP rule in firewall configuration.

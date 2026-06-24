@@ -1,0 +1,15 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-06-19 04:48 -0400
+Nmap scan report for 192.168.56.102
+Host is up (0.0097s latency).
+Not shown: 993 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+53/udp   open          domain
+68/udp   open|filtered dhcpc
+69/udp   open|filtered tftp
+111/udp  open          rpcbind
+137/udp  open          netbios-ns
+138/udp  open|filtered netbios-dgm
+2049/udp open          nfs
+MAC Address: 08:00:27:5A:99:4C (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 1086.11 seconds

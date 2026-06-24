@@ -1,0 +1,8 @@
+Wireshark Packets Analysis
+
+1. Started packet capture on eth1 interface.
+2.Generated traffic using ping -c 4 google.com
+3. applied ICMP filter to view ping packets.
+4. Observed ICMP Echo request and echo reply packets.
+5. Verified succesful network communication.
+

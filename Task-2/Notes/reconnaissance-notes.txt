@@ -1,0 +1,46 @@
+Reconnaissance
+
+Reconnaissance is the process of gathering information about a target before performing security testing.
+
+Types of Reconnaissance:
+
+1. Passive Reconnaissance
+Information is collected without directly interacting with the target.
+
+Examples:
+- Whois
+- Google Dorking
+- Shodan
+
+2. Active Reconnaissance
+Information is collected by directly interacting with the target.
+
+Examples:
+- Ping Sweep
+- Banner Grabbing
+- Port Scanning
+
+
+Shodan
+
+Shodan is a search engine used to discover internet-connected devices.
+
+It can identify:
+- Servers
+- Routers
+- IoT Devices
+- Web Cameras
+
+Security professionals use Shodan for asset discovery and security assessment.
+
+
+Google Dorking
+
+Google Dorking is the use of advanced Google search operators to find specific information.
+
+Examples:
+- site:example.com
+- filetype:pdf
+- intitle:index of
+
+Google Dorking helps security professionals discover publicly available information about a target.
